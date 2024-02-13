@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <title>WEB PERTAMA</title> 
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img src="assets/icon/logo1.png" alt="logo" class="logo-img">
+            <h1 class="logo-title">ANAGATA</h1>
+        </div>
+
+      <nav>
+        <ul>
+          <li><a href="#jasa">JASA</a></li>
+          <li><a href="https:">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title animate__animated animate__backInLeft">Hello, Anagata Erry Is here!</p>
+        <p class="description animate__animated animate__backInRight">Newbie Programmer From South Batavia</p>
+        <img src="assets/foto/anagata.jpg" alt="anagatafoto1" class="img-foto animate__animated animate__zoomIn"/>
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Saya adalah programmer</p>
+        <p class="description">Ngoding aja dulu, jago mah belakangan.</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+        </div>
+      </div>
+      <div class="container">
+          <div class="card" id="jasa">
+            <div class="card-item animate__animated animate__backInLeft">
+              <img src="assets/icon/24-hours.png" alt="icon1" class="icon" />
+              <p class="card-title">pelayanan nonstop</p>
+              <p class="card-description">servis nonstop ketika anda membutuhkan bantuan</p>
+            </div>
+            <div class="card-item animate__animated animate__backInUp">
+              <img src="assets/icon/hot-deal.png" alt="icon2" class="icon" />
+              <p class="card-title">jasa paling murah</p>
+              <p class="card-description">biaya jasa yang saya berikan pasti murah dan terjamin</p>
+            </div>
+            <div class="card-item animate__animated animate__backInRight">
+              <img src="assets/icon/rating.png" alt="icon3" class="icon" />
+              <p class="card-title">658 review</p>
+              <p class="card-description">mereka senang bekerjasama dengan saya</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Anagata Erry Website 2024</p>
+    </footer>
+    <script>
+        function redirInstagram() {
+            window.location.href ="https://instagram.com/Ferdyeka_31"
+        }
+    </script>
+  </body>
+</html>
